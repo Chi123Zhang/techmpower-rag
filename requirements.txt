@@ -8,3 +8,5 @@ scikit-learn
 tqdm
 openai
 numpy
+langchain
+langchain-openai
