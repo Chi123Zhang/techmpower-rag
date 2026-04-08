@@ -1,0 +1,144 @@
+# TechMPower RAG Assistant
+
+**AI-Augmented Document Analysis for Public Health Research**
+
+---
+
+## 📌 Project Overview
+
+This project is a **Retrieval-Augmented Generation (RAG) system** designed to support the TechMPower study, a large-scale public health intervention targeting HIV and substance use disorder (SUD) outcomes among individuals involved in the criminal legal system.
+
+The system enables **evidence-grounded question answering and role-based interpretation** of research documents, supporting both analytic rigor and practical decision-making.
+
+---
+
+## 🎯 Research Context
+
+TechMPower is a **Hybrid Type II effectiveness-implementation study** evaluating strategies to improve:
+
+* HIV testing and treatment uptake
+* SUD prevention and treatment access
+* Continuity of care post-release
+
+The intervention integrates community coalitions, telehealth, and structured implementation strategies across multiple jail systems .
+
+Additionally, the project explores the use of **AI/LLMs for qualitative coding, data quality monitoring, and implementation feedback**, while maintaining strict human oversight and ethical safeguards .
+
+---
+
+## 🚀 Key Features
+
+### 🔍 1. Evidence-Grounded QA
+
+* Answers are generated strictly from retrieved documents
+* Prevents hallucination
+* Includes citation traceability
+
+### 🧠 2. Hybrid Retrieval System
+
+* BM25 (keyword search)
+* Vector search (semantic)
+* Cross-encoder reranking
+
+### 👥 3. Multi-Role Reasoning
+
+Users can view answers from different perspectives:
+
+* Product Manager → decision-making
+* Engineer → system design
+* Business → strategy and scalability
+* General → research summary
+
+### 🧩 4. Structured Outputs
+
+Each role produces:
+
+* Evidence → Interpretation → Action
+
+### 🛡️ 5. Research-Safe AI Design
+
+Aligned with TechMPower AI principles:
+
+* No automated decision-making
+* Human-in-the-loop validation
+* De-identified data usage
+* AI as analytic support only 
+
+---
+
+## 🧠 My Contribution
+
+**Chi (Charlie) Zhang**
+M.A. in Statistics, Columbia University (Advanced ML Track)
+
+This system was developed to support the **AI4SGS / TechMPower research workflow**, focusing on:
+
+* Applying RAG for **document-grounded analysis**
+* Supporting **LLM-assisted qualitative coding**
+* Improving **analytic reliability under noisy text data**
+* Enabling **structured, role-specific interpretation of research evidence**
+
+The system aligns with ongoing work comparing:
+
+> LLM-based coding vs human annotation for social science research.
+
+---
+
+## 🧪 Example Use Case
+
+Ask:
+
+> *How does TechMPower improve HIV and SUD outcomes?*
+
+Then switch perspectives:
+
+* PM → actionable program decisions
+* Engineer → implementation architecture
+* Business → scalability and ROI
+
+---
+
+## 🌐 Live Demo
+
+👉 [Streamlit App Link Here]
+
+---
+
+## ⚖️ Why This is Better than ChatGPT
+
+| Feature                         | ChatGPT | This System |
+| ------------------------------- | ------- | ----------- |
+| Uses your research docs         | ❌       | ✅           |
+| Provides citations              | ❌       | ✅           |
+| Role-based reasoning            | ❌       | ✅           |
+| Prevents hallucination          | ❌       | ✅           |
+| Designed for research workflows | ❌       | ✅           |
+
+---
+
+## 🛠 Tech Stack
+
+* Python, Streamlit
+* FAISS, BM25
+* Sentence Transformers
+* Cross-Encoder Reranking
+* (Optional) OpenAI API
+
+---
+
+## 🔮 Future Work
+
+* LLM-assisted qualitative coding pipeline
+* Integration with PRISM / RE-AIM dashboards
+* Automated research report generation
+* Human-AI hybrid evaluation system
+
+---
+
+## 📬 Contact
+
+Chi Zhang (Charlie)
+Columbia University
+M.A. Statistics (Advanced Machine Learning)
+
+---
