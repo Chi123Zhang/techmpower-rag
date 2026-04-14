@@ -271,7 +271,8 @@ if st.button("Run"):
                 result = rag.answer_question(
                     query=query,
                     mode=mode,
-                    role=effective_role
+                    role=effective_role,
+                    user_profile=inferred_profile
                 )
 
             st.subheader("Answer")
